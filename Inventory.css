@@ -1,0 +1,444 @@
+
+body{
+    background-color: rgb(255, 254, 254); 
+  }
+  /**************************** navigation var ************************/
+  nav{
+    background-color: black;
+    height: 75px; 
+  }
+  
+  .nav-wrapper img{
+  
+    height: 300px;
+    position: relative;
+    left: 230px;
+    bottom: 130px;
+    
+  }
+  
+  
+  .nav-wrapper button {
+    position: relative;
+    left: 1200px;
+    top: -114px;
+  }
+  
+  .nav-wrapper button i{
+    position: relative;
+   bottom: 22px;
+  
+  } 
+    
+    li {
+      position: relative;
+      right: 240px;
+      font-family: 'Cuprum', sans-serif;
+  
+    }
+    
+    #nav-mobile li a {
+      
+      position: relative;
+      right: 50px;
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Cuprum', sans-serif;
+      padding: 3px 15px;
+      text-decoration: none;
+  
+     }  
+
+a.effect-box:after,
+a.effect-box:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1.4em;
+  width: 100%;
+  margin-top: 18px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	
+}
+
+a.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+a.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-box:hover:after,
+a.effect-box:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+  transform: scale(1);
+  color: red;
+}
+    
+  
+  /**************************** Inventory Cards************************/
+
+  .container{
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+  }
+
+  .container h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 120px;
+  }
+
+
+  .container img{
+    position: relative;
+    bottom: 20px;
+    width:250px;
+    height:200px;
+  }
+  
+  .container .box0{
+    position: relative;
+    right: 127px;
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+  .container .box0 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 90px;
+  }
+  .container .box0 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box0:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container .box0 .action0 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container .box01{
+    position: relative;
+    right: 69px;
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+  .container .box01 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 80px;
+  }
+  .container .box01 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box01:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container .box01 .action01 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container .box02{
+    position: relative;
+    right: 12px;
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+  .container .box02 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 80px;
+  }
+  .container .box02 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box02:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container .box02 .action02 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container .box03{
+    position: relative;
+    right: -45px;
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+  .container .box03 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 80px;
+  }
+  .container .box03 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box03:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container .box03 .action03 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container .box04{
+    position: relative;
+    right: -100px;
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+  .container .box04 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 80px;
+  }
+  .container .box04 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box04:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container .box04 .action04 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+
+/**************************** Inventory Cards #2 ************************/
+
+  .container1{
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 30px; 
+  }
+
+  .container1 h3{
+    position: relative;
+    left: 30px;
+    border-bottom-style: dotted;
+    width: 120px;
+  }
+
+
+  .container1 img{
+    position: relative;
+    bottom: 20px;
+    width:250px;
+    height:200px;
+  }
+  
+
+  .container1 .box1 p{
+
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .container1 .box1{
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+    
+  }
+
+  .box1:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  
+  .container1 .box1 .action {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container1 .box2{
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+  }
+
+  .container1 .box2 p{
+
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+  .container1 .box2 h3{
+    width: 170px;
+  }
+
+  .box2:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  .container1 .box2 .action1 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container1 .box3{
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+  }
+  .container1 .box3 h3{
+    width: 140px;
+  }
+  .container1 .box3 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box3:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+  .container1 .box3 .action2 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container1 .box4{
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+  }
+  .container1 .box4 h3{
+    width: 140px;
+  }
+  .container1 .box4 p{
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+
+  .box4:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+  .container1 .box4 .action3 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
+
+  .container1 .box5{
+    border-radius: 10px; 
+    border: solid 1px #EFEFEF;
+  }
+
+  .container1 .box5 p{
+
+    position: relative;
+    left: 15px;
+    top: 255px;
+  }
+  .container1 .box5 h3{
+    width: 170px;
+  }
+
+  .box5:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+  .container1 .box5 .action4 {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:40px;
+  }
